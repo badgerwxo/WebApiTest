@@ -8,4 +8,173 @@
   <groupId>ru.spec.java1.lec7</groupId>
   <artifactId>WebApiTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+
+        <dependencies>
+            <dependency>
+                <groupId>ru.send-to.dto</groupId>
+                <artifactId>DtoCommon</artifactId>
+                <version>0.3.2</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>2.8.1</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>2.8.1</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>2.8.1</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.dataformat</groupId>
+                <artifactId>jackson-dataformat-xml</artifactId>
+                <version>2.8.1</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>ru.send-to.rest</groupId>
+                <artifactId>UniversalRest-api</artifactId>
+                <version>0.3.2.3</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>ru.send-to.rest</groupId>
+                <artifactId>UniversalRest-gwt</artifactId>
+                <version>0.3.2.3</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>ru.send-to.rest</groupId>
+                <artifactId>UniversalRest-http</artifactId>
+                <version>0.3.2.3</version>
+                <type>war</type>
+            </dependency>
+            <dependency>
+                <groupId>ru.send-to.rest</groupId>
+                <artifactId>UniversalRest-websocket</artifactId>
+                <version>0.3.2.3</version>
+                <type>war</type>
+            </dependency>
+            <dependency>
+                <groupId>ru.send-to.ejb</groupId>
+                <artifactId>EjbContext</artifactId>
+                <version>0.3.2.3</version>
+                <type>ejb</type>
+            </dependency>
+            <dependency>
+                <groupId>ru.send-to.websocket</groupId>
+                <artifactId>CDIEndpoint</artifactId>
+                <version>0.3.2.0</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>javax</groupId>
+                <artifactId>javaee-api</artifactId>
+                <version>7.0</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>javax</groupId>
+                <artifactId>javaee-web-api</artifactId>
+                <version>7.0</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.16.18</version>
+                <type>jar</type>
+            </dependency>
+ 
+            <dependency>
+                <groupId>ru.send-to.log</groupId>
+                <artifactId>EnterpriceLogger</artifactId>
+                <version>0.0.1</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>ru.send-to.gwt</groupId>
+                <artifactId>Shortcut</artifactId>
+                <version>2.8.1.0</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>ru.send-to.gwt</groupId>
+                <artifactId>EventBus</artifactId>
+                <version>2.8.1.5</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>ru.send-to.gwt.html</groupId>
+                <artifactId>HtmlGwt</artifactId>
+                <version>2.8.1.0</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>ru.send-to.gwt</groupId>
+                <artifactId>Notifications</artifactId>
+                <version>2.8.1.1</version>
+                <type>jar</type>
+            </dependency>
+          
+            <dependency>
+                <groupId>ru.send-to.telegram</groupId>
+                <artifactId>TelegramApi</artifactId>
+                <version>0.1.1</version>
+            </dependency>
+ 
+            <dependency>
+                <groupId>org.wildfly.bom</groupId>
+                <artifactId>wildfly-javaee7-with-tools</artifactId>
+                <version>10.1.1.Final</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+ 
+            <dependency>
+                <groupId>org.testng</groupId>
+                <artifactId>testng</artifactId>
+                <version>6.11</version>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+            </dependency>
+ 
+            <dependency>
+                <groupId>com.google.gwt</groupId>
+                <artifactId>gwt</artifactId>
+                <version>${gwtVersion}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+ 
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>2.5</version>
+            </dependency>
+        </dependencies>
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
 </project>
